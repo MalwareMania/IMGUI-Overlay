@@ -8,6 +8,6 @@ Download the Project -> Set to release x86 -> Build
 
 # 🖥️ How to use it?
 
-Change the process_name variable to match your target game's process name
+Change the pid variable to match your target game's process name
 
 Made with IMGUI in C++
