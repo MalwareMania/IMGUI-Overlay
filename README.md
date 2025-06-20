@@ -8,6 +8,6 @@ Download the Project -> Set to release x86 -> Build
 
 # 🖥️ How to use it?
 
-Change the pid variable to match your target game's process name
+Change the window title in the FindWindowW call to match your target game's window title.
 
 Made with IMGUI in C++
