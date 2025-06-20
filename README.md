@@ -1,6 +1,6 @@
 # IMGUI-Overlay
 
-IMGUI External Overlay is an imgui overlay used for rendering imgui into most games.
+IMGUI External Overlay is an imgui based overlay used to render imgui into most games.
 
 # 🚀 How to build it
 
