@@ -1,13 +1,5 @@
-# IMGUI-Overlay
+# Roblox Offsets
 
-IMGUI External Overlay is an imgui based overlay used to render imgui into most games.
+a github page where i upload of all of the roblox offsets.
 
-# 🚀 How to build it
-
-Download the Project -> Set to release x86 -> Build
-
-# 🖥️ How to use it?
-
-Change the window title in the FindWindowW call to match your target game's window title.
-
-Made with IMGUI in C++
+Currently updated for: 'version-82f8ee8d17124507 '
