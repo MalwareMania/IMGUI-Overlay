@@ -1,5 +1,5 @@
 # Roblox Offsets
 
-a github page where i upload of all of the roblox offsets.
+A repository for Roblox memory offsets. Useful for reverse engineering and client modification purposes.
 
-Currently updated for: 'version-82f8ee8d17124507'
+Currently updated for: `version-82f8ee8d17124507`
