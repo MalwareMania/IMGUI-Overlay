@@ -135,6 +135,7 @@ namespace Offsets {
     namespace System {
         const uintptr_t OpcodeLookupTable = REBASE(0x562a4f0);
         const uintptr_t GetCurrentThreadId = REBASE(0x3852E70);
+        const uintptr_t GetContextObject = REBASE(0xDDFB10);
         const uintptr_t Print              = REBASE(0x15977E0);
         const uintptr_t GetGlobalState     = REBASE(0xDC7E20);
         const uintptr_t RequestCode        = REBASE(0x906AC0);
