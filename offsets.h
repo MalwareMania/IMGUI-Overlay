@@ -21,7 +21,15 @@ namespace Offsets {
         const uintptr_t DecryptLuaState     = REBASE(0xB4D320);
         const uintptr_t LuaVMLoad           = REBASE(0xB503A0);
         const uintptr_t Luau_Execute        = REBASE(0x26D4300);
-        const uintptr_t VariantCastInt64    = REBASE(0x1526730);
+        const uintptr_t LuaA_toobject = REBASE(0x26906C0);
+        const uintptr_t LuaC_step = REBASE(0x26A1040);
+        const uintptr_t LuaL_checklstring = REBASE(0x2694160);
+        const uintptr_t LuaL_getmetafield = REBASE(0x2694660);
+        const uintptr_t LuaL_register = REBASE(0x2695FF0);
+        const uintptr_t LuaM_visitgco = REBASE(0x26E9D30);
+        const uintptr_t LuaO_pushvfstring = REBASE(0x26FF380);
+        const uintptr_t ScriptContextResume = REBASE(0xDD78A0);
+        const uintptr_t SetProtoCapabilities = REBASE(0xC7DCC0);
 
         namespace UserData {
             const uintptr_t GlobalState         = 0x140;
@@ -132,7 +140,7 @@ namespace Offsets {
         constexpr uintptr_t Instance = 0x1B8;
     }
 
-    namespace System {
+    namespace VM {
         const uintptr_t OpcodeLookupTable = REBASE(0x562a4f0);
         const uintptr_t GetCurrentThreadId = REBASE(0x3852E70);
         const uintptr_t GetContextObject = REBASE(0xDDFB10);
@@ -143,6 +151,9 @@ namespace Offsets {
         const uintptr_t GetIdentityStruct  = REBASE(0x38530A0);
         const uintptr_t IdentityPtr        = REBASE(0x63C9D48);
         const uintptr_t KTable             = REBASE(0x63940A0);
+        const uintptr_t GetModuleFromVMStateMap = REBASE(0xF15580);
+        const uintptr_t GetProperty = REBASE(0xA5C7E0);
+        const uintptr_t GetValues = REBASE(0xBE0D60);
     }
 
     namespace ExtraSpace {
@@ -164,7 +175,6 @@ namespace External {
             inline constexpr uintptr_t CameraRotation      = 0x100;
             inline constexpr uintptr_t FOV                 = 0x168;
             inline constexpr uintptr_t ViewportSize        = 0x300;
-            inline constexpr uintptr_t viewmatrix          = 0x4D0;
         }
 
         namespace Player {
@@ -258,6 +268,7 @@ namespace External {
         namespace Rendering {
             inline constexpr uintptr_t VisualEnginePointer   = 0x6606128;
             inline constexpr uintptr_t VisualEngine          = 0x10;
+            inline constexpr uintptr_t ViewMatrix          = 0x4D0;
             inline constexpr uintptr_t MoonTextureId         = 0x860;
             inline constexpr uintptr_t SunTextureId          = 0x978;
             inline constexpr uintptr_t StarCount             = 0x228;
